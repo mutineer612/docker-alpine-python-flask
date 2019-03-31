@@ -2,7 +2,8 @@
 This Dockerfile creates a simple container for running Python and Flask using the latest Alpine base, and copies a flask-website.py file into the working directory.  The python script enables simple access for http header info, IP addressing and environment variables for testing load balancing, container failure, and orchestration.   
 
 ## Usage
-Build the container image from current directory and publish to docker hub.
+Build the container image from current directory and publish to docker hub.  
+Replace the user and image names as needed for your setup.  
 1. `docker build -t mutineer612/flask-website .`  
 2. `docker push mutineer612/flask-website`
 
